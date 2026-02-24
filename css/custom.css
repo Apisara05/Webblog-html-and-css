@@ -21,13 +21,16 @@ body {
 
   /* background-color: salmon; */
 }
+
 a {
   color: rgb(0, 31, 131);
   text-decoration: none;
 }
+
 a:hover {
   text-decoration: underline;
 }
+
 /* header */
 
 .sit-header {
@@ -52,6 +55,7 @@ a:hover {
   font-size: 0.8rem;
   color: rgb(179, 179, 179);
 }
+
 .social-icon a {
   font-weight: 600;
   font-size: 1rem;
@@ -69,6 +73,7 @@ a:hover {
 
   transition: all 0.3s ease;
 }
+
 .social-icon a:hover {
   border-color: rgb(0, 0, 0);
   background-color: #22c55e(103, 164, 255);
@@ -186,6 +191,7 @@ grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); */
 .hero-item .read-more:hover::after {
   margin-left: 10px;
 }
+
 /* ===================== Page Section======================== */
 .content-layout {
   display: grid;
@@ -194,6 +200,7 @@ grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); */
   gap: 30px;
   /* background-color: #16a34a; */
 }
+
 /* Posts -----Main Left --------------*/
 .card {
   background-color: aliceblue;
@@ -201,7 +208,8 @@ grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); */
   padding: 15px;
   box-shadow: 0 2px 8px #5ac983;
 }
-.card + .card {
+
+.card+.card {
   margin-top: 5px;
 }
 
@@ -211,6 +219,7 @@ grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); */
   justify-content: space-between;
   align-items: center;
 }
+
 .date-circle {
   width: 70px;
   height: 70px;
@@ -232,16 +241,19 @@ grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); */
   font-weight: 600;
   line-height: 1;
 }
+
 .post-title {
   font-size: 1.1rem;
   font-weight: 600;
 }
+
 .card-header-line {
   font-size: 0.9rem;
   font-weight: 500;
   text-transform: uppercase;
   color: #6d6d6d;
 }
+
 .post-footer {
   color: #22c55e;
   font-size: 0.65rem;
@@ -249,6 +261,7 @@ grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); */
   border-top: 1px solid #22c55e;
   padding-top: 8px;
 }
+
 /* post image */
 .post-image {
   height: 200px;
@@ -257,11 +270,13 @@ grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); */
 
   margin: 15px 0;
 }
+
 .post-image img {
   width: 100;
   height: auto;
   object-fit: cover;
 }
+
 .post-detail {
   color: #6d6d6d;
   font-size: 0.8rem;
@@ -538,7 +553,9 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-} /* การตั้งค่าพื้นฐาน */
+}
+
+/* การตั้งค่าพื้นฐาน */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -647,6 +664,7 @@ body {
 .form-field {
   margin-bottom: 15px;
 }
+
 .form-field label {
   display: block;
   margin-bottom: 5px;
@@ -736,6 +754,7 @@ body {
   color: #27ae60;
   font-weight: 500;
 }
+
 .con {
   color: #e74c3c;
   font-weight: 500;
@@ -743,32 +762,45 @@ body {
 
 /* --- Footer --- */
 .site-footer {
-  background-color: #1a1a1a; /* สีพื้นหลังดำ/เทาเข้มตามภาพ */
-  color: #888888; /* สีตัวอักษรเทาอ่อน */
-  padding: 30px 0; /* ระยะห่างบน-ล่าง */
-  text-align: center; /* จัดข้อความกึ่งกลาง */
-  font-size: 0.9rem; /* ขนาดตัวอักษรพอเหมาะ */
-  margin-top: 50px; /* ระยะห่างจากเนื้อหาด้านบน */
+  background-color: #1a1a1a;
+  /* สีพื้นหลังดำ/เทาเข้มตามภาพ */
+  color: #888888;
+  /* สีตัวอักษรเทาอ่อน */
+  padding: 30px 0;
+  /* ระยะห่างบน-ล่าง */
+  text-align: center;
+  /* จัดข้อความกึ่งกลาง */
+  font-size: 0.9rem;
+  /* ขนาดตัวอักษรพอเหมาะ */
+  margin-top: 50px;
+  /* ระยะห่างจากเนื้อหาด้านบน */
 }
+
 a {
   color: #ffffff;
 }
+
 .footer-content p {
-  margin: 5px 0; /* ระยะห่างระหว่างบรรทัดข้อความ */
+  margin: 5px 0;
+  /* ระยะห่างระหว่างบรรทัดข้อความ */
 }
 
 .footer-note {
-  font-size: 0.85rem; /* ขนาดเล็กลงมานิดหน่อยสำหรับบรรทัดที่สอง */
+  font-size: 0.85rem;
+  /* ขนาดเล็กลงมานิดหน่อยสำหรับบรรทัดที่สอง */
 }
 
 .footer-note a {
-  color: #3498db; /* สีฟ้าสำหรับลิงก์ Contact */
-  text-decoration: none; /* เอาขีดเส้นใต้หน้าปกติออก */
+  color: #3498db;
+  /* สีฟ้าสำหรับลิงก์ Contact */
+  text-decoration: none;
+  /* เอาขีดเส้นใต้หน้าปกติออก */
   transition: color 0.3s;
 }
 
 .footer-note a:hover {
-  color: #2980b9; /* สีฟ้าเข้มขึ้นเมื่อเอาเมาส์ไปชี้ */
+  color: #2980b9;
+  /* สีฟ้าเข้มขึ้นเมื่อเอาเมาส์ไปชี้ */
   text-decoration: underline;
 }
 
@@ -777,4 +809,268 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+/* ========================================================= */
+/* Gold Price ----------------------------------------------- */
+/* ========================================================= */
+/* ตัวแปร */
+:root {
+  --line: #000000;
+  --bg01: #27ae60;
+  --bg02: #27f877;
+  --bg03: #a2ffe3;
+  --up: #0d00ff;
+  --down: #ff0000;
+}
+
+.wrap-table {
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.price-table {
+  width: 100%;
+  border: 1px solid var(--line);
+  /* เส้นกรอบตาราง */
+  color: hsl(142, 49%, 14%);
+  background-color: var(--bg03);
+
+  border-collapse: collapse;
+  /* ทำให้เส้นที่ห่างกัน ให้ติดกัน */
+}
+
+.price-table th,
+.price-table td {
+  border: 1px solid var(--line);
+  /* เส้นกรอบตาราง */
+  padding: 10px 4px;
+}
+
+.price-table thead th {
+  background-color: var(--bg01);
+}
+
+.month {
+  background-color: var(--bg01);
+}
+
+.num {
+  text-align: right;
+}
+
+.delta {
+  text-align: center;
+}
+
+.delta.up {
+  color: var(--up);
+}
+
+.delta.down {
+  color: var(--down);
+}
+
+.price-table tr.total th,
+.price-table tr.total td {
+  background-color: var(--bg02);
+  font-weight: 600;
+}
+
+.icon {
+  display: inline-block;
+  width: 0px;
+  height: 0px;
+  border-left: 6px solid transparent;
+  border-right: 6px solid transparent;
+}
+
+.icon.up {
+  border-bottom: 10px solid var(--up);
+
+  margin-right: 5px;
+}
+
+.icon.down {
+  border-top: 10px solid var(--down);
+}
+
+/* --- Footer --- */
+.site-footer {
+  background-color: #1a1a1a;
+  /* สีพื้นหลังดำ/เทาเข้มตามภาพ */
+  color: #888888;
+  /* สีตัวอักษรเทาอ่อน */
+  padding: 30px 0;
+  /* ระยะห่างบน-ล่าง */
+  text-align: center;
+  /* จัดข้อความกึ่งกลาง */
+  font-size: 0.9rem;
+  /* ขนาดตัวอักษรพอเหมาะ */
+  margin-top: 50px;
+  /* ระยะห่างจากเนื้อหาด้านบน */
+}
+
+a {
+  color: #ffffff;
+}
+
+.footer-content p {
+  margin: 5px 0;
+  /* ระยะห่างระหว่างบรรทัดข้อความ */
+}
+
+.footer-note {
+  font-size: 0.85rem;
+  /* ขนาดเล็กลงมานิดหน่อยสำหรับบรรทัดที่สอง */
+}
+
+.footer-note a {
+  color: #3498db;
+  /* สีฟ้าสำหรับลิงก์ Contact */
+  text-decoration: none;
+  /* เอาขีดเส้นใต้หน้าปกติออก */
+  transition: color 0.3s;
+}
+
+.footer-note a:hover {
+  color: #2980b9;
+  /* สีฟ้าเข้มขึ้นเมื่อเอาเมาส์ไปชี้ */
+  text-decoration: underline;
+}
+
+/* ปรับให้ Footer เต็มหน้าจอ */
+.site-footer .wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ========================================================= */
+/* RESPONSIVE ----------------------------------------------- */
+/* ========================================================= */
+
+/* ========================================================= */
+/* RESPONSIVE ----------------------------------------------- */
+/* ========================================================= */
+
+@media (max-width: 922px) {
+  .site-header {
+    background-color: #d400ff;
+  }
+}
+
+@media (max-width: 768px) {
+  .site-header {
+    background-color: #fbff00;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .content-layout,
+  .form-row {
+    grid-template-columns: 1fr;
+  }
+
+  .form-checkbox-group {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .nav-menu {
+    flex-direction: column;
+  }
+
+  .nav-menu li a {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+  }
+}
+
+/* ซ่อน hamburger บนจอใหญ่ */
+#burger-menu {
+  display: none;
+}
+
+@media (max-width: 576px) {
+  .site-header {
+    background-color: #03ff70;
+  }
+
+  /* กำหนดขนาด/พื้นที่ของ Button  */
+  #burger-menu {
+    display: block;
+    height: 25px;
+    width: 30px;
+    position: relative;
+    /* อ้างอิงค์แม่ลูก ตัวแม่ = relative ตัวลูก = absolute*/
+    z-index: 1000;
+    /* อยู่เหนือสุด อยู่บน*/
+    cursor: pointer;
+    /* จากเมาส์เป็นรูปมือ */
+  }
+
+  /* วาดเส้น 3 ขีด ด้วย span + pseudo elements */
+  #burger-menu span,
+  /* สร้างเส้นกลาง */
+  #burger-menu span::before,
+  /* สร้างเส้นบน */
+  #burger-menu span::after
+
+  /* สร้างเส้นล่าง */
+    {
+    background-color: #ffffff;
+    height: 3px;
+    width: 100%;
+    position: absolute;
+    display: block;
+    transition: all 0.3s ease;
+    content: "";
+  }
+
+  /* จัดตำแหน่งของเส้น 3 เส้น (บน/กลาง/ล่าง) */
+  #burger-menu span {
+    top: 11px;
+  }
+
+  #burger-menu span::before {
+    top: -8px;
+  }
+
+  #burger-menu span::after {
+    top: 8px;
+  }
+
+  /* Animation เมื่อกด */
+
+  /* ทำให้เส้น “กลาง” หายไป (โปร่งใส) */
+  #burger-menu.close span {
+    background: transparent;
+  }
+
+  /* เส้นบน rotate(45deg) หมุนเฉียงไปทางขวา */
+  /* top: 0; ทำให้ทั้งสองเส้น “มาซ้อนกันตรงกลาง” ก่อนหมุน */
+  #burger-menu.close span:before {
+    transform: rotate(45deg);
+    top: 0;
+  }
+
+  /* เส้นล่าง rotate(-45deg) หมุนเฉียงไปทางซ้าย */
+  #burger-menu.close span:after {
+    transform: rotate(-45deg);
+    top: 0;
+  }
+
+  /* ซ่อนเมนู */
+  #menu {
+    display: none;
+    flex-direction: column;
+    background: #123b23;
+  }
+
+  /* เปิดเมนู เมื่อ active แสดงเมนูขึ้นมา*/
+  #menu.overlay {
+    display: flex;
+  }
 }
